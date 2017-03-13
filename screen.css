@@ -23,6 +23,10 @@ a:visited {
   max-width: 25em;
 }
 
+img {
+  width: 100%;
+}
+
 /* Media queries */
 
         /* DESKTOP */
