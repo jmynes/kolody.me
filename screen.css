@@ -10,3 +10,42 @@ body {
 h1,h2,h3 {
   line-height: 1.2;
 }
+
+a:link {
+  color: #004FB2;
+}
+
+a:visited {
+  color: DimGrey; /* #696969 */
+}
+
+#headshot {
+  max-width: 25em;
+}
+
+/* Media queries */
+
+        /* DESKTOP */
+/* 50em, tier 1 */
+@media screen and (max-width: 50em) {
+  #headshot {
+    max-width: 20em;
+  }
+}
+
+/* 40em, tier 2 */
+@media screen and (max-width: 40em) {
+  #headshot {
+    max-width: 50%;
+  }
+}
+
+        /* MOBILE */
+@media screen and (max-width: 35em) {
+  #headshot {
+    margin-left: 9%;
+    max-width: 83.3333%;
+  }
+}
+
+/* End Media queries */
