@@ -6,30 +6,36 @@ body {
   line-height: 1.6;
   font-size: 18px;
   color: #444;
+
+  font-family: 'Droid Sans', sans-serif;
 }
 
 h1,h2,h3 {
   line-height: 1.2;
 }
 
-a:link {
+header a:link {
   color: #015A8C;
   text-decoration: none; /* Remove default underline */
   border-bottom: medium solid; /* Less overlap */
 }
 
-a:visited {
+header a:visited {
   color: #553879;
   text-decoration: none;
   border-bottom: medium solid;
 }
 
 article a:link {
-  border-bottom: thin solid;
+  color: #015A8C;
 }
 
 article a:visited {
-  border-bottom: thin solid;
+  color: #553879;
+}
+
+#headshot {
+  width: 66%;
 }
 
 img {
@@ -67,6 +73,10 @@ img {
     font-size: 14px;
     margin-left: 1em;
     margin-right: 1em;
+  }
+
+  #headshot {
+    width: 100%;
   }
 }
 
