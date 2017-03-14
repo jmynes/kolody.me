@@ -1,10 +1,11 @@
 body {
   margin: 40px auto;
+  padding: 0 10px;
+
   max-width: 650px;
   line-height: 1.6;
   font-size: 18px;
   color: #444;
-  padding: 0 10px;
 }
 
 h1,h2,h3 {
@@ -31,10 +32,6 @@ article a:visited {
   border-bottom: thin solid;
 }
 
-#headshot {
-  max-width: 25em;
-}
-
 img {
   width: 100%;
 }
@@ -56,25 +53,20 @@ img {
 /* Media queries */
 
         /* DESKTOP */
-/* 50em, tier 1 */
 @media screen and (max-width: 50em) {
-  #headshot {
-    max-width: 20em;
-  }
-}
-
-/* 40em, tier 2 */
-@media screen and (max-width: 40em) {
-  #headshot {
-    max-width: 50%;
+  body {
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 16px;
   }
 }
 
         /* MOBILE */
 @media screen and (max-width: 35em) {
-  #headshot {
-    margin-left: 9%;
-    max-width: 83.3333%;
+  body {
+    font-size: 14px;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 
