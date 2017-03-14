@@ -70,17 +70,47 @@ img {
         /* MOBILE */
 @media screen and (max-width: 35em) {
   body {
+    margin: 0px auto;
+    padding: 0 0px;
+  }
+
+  main {
+    margin: 40px auto;
+    padding: 0 10px;
+
     margin-left: 1em;
     margin-right: 1em;
     margin-top: 2em;
   }
 
   header {
-    font-size: 14px;
+    font-size: 12px;
+    color: white;
+  }
+
+  h1, h2 {
+    text-align: left;
+    margin-left: 10%;
+    max-width: 80%;
+  }
+
+  header a:link {
+    color: white;
+  }
+
+  header a:visited {
+    color: white;
   }
 
   #headshot {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  .head-bg {
+    background-color: #004FB2;
+    padding-bottom: 1em;
   }
 }
 
