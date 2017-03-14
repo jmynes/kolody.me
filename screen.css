@@ -12,11 +12,23 @@ h1,h2,h3 {
 }
 
 a:link {
-  color: #004FB2;
+  color: #015A8C;
+  text-decoration: none; /* Remove default underline */
+  border-bottom: medium solid; /* Less overlap */
 }
 
 a:visited {
-  color: DimGrey; /* #696969 */
+  color: #553879;
+  text-decoration: none;
+  border-bottom: medium solid;
+}
+
+article a:link {
+  border-bottom: thin solid;
+}
+
+article a:visited {
+  border-bottom: thin solid;
 }
 
 #headshot {
