@@ -63,7 +63,7 @@ img {
   top:0; bottom:0; right: 0;
   width: 9vw; 
   margin: 0 auto;
-  background: #b80000; /* A nice red */
+  background: #d00837; /* Door red */
   border-left: 0.2em solid #000000;
 }
 
@@ -185,7 +185,7 @@ img {
   }
 
   .head-bg {
-    background-color: #b80000;
+    background-color: #d00837; /* Door Red */
     padding-bottom: 1em;
     border-bottom: 0.2em solid #000000;
   }
