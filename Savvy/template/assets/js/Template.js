@@ -3,8 +3,8 @@ var Template = {
 	googleMapConfig:{
 		// change map marker location here
 		markerLocation:{
-			lat:-34.397,
-			lng:150.644
+			lat:41.8756874,
+			lng:-87.6256969
 		},
 		// uncomment line below if you want use image or svg file as a marker
 		//markerIcon:{ url:'assets/svg/map-marker.svg' },
