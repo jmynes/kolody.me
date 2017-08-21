@@ -186,7 +186,7 @@ var Template = {
 		if (!mapElement) return;
 
 		var mapCfg = this.googleMapConfig || {},
-			markerPositionCfg = jQuery.extend({lat:-34.397,lng:150.644}, mapCfg.markerLocation || {}),
+			markerPositionCfg = jQuery.extend({lat:41.8756874,lng:-87.6256969}, mapCfg.markerLocation || {}),
 			markerPosition = new google.maps.LatLng(markerPositionCfg.lat, markerPositionCfg.lng),
 			map = new google.maps.Map(mapElement, {
 				zoom: mapCfg.zoom ? mapCfg.zoom : 8,
